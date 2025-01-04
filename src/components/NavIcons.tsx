@@ -32,7 +32,7 @@ const NavIcons = () => {
         <Image src="/profile.png" alt="user" width={22} height={22}/>
       </button>
       {isProfileOpen && (
-        <ul className="absolute top-12 left-0 p-4 text-sm shadow-[0_3px_10px_rgba(0,0,0,0.2)] z-20">
+        <ul className="absolute top-12 left-0 p-4 text-sm shadow-[0_3px_10px_rgba(0,0,0,0.2)] z-20 bg-white">
           <li>
             <Link href="/profile">Profile</Link>
           </li>
